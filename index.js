@@ -3,7 +3,7 @@ const fs = require('fs'),
     express = require('express'),
     bodyParser = require('body-parser'),
     app = express(),
-    printer = require('printer');
+    printer = require('node-printer');
 
 var lastPrinted;
 
